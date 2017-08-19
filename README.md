@@ -2,6 +2,6 @@
 
 A simple calculator in Swift.
 
-##Contribute
+## Contribute
 
 PRs accepted.

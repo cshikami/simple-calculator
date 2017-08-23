@@ -78,9 +78,6 @@ class ViewController: UIViewController {
         myStack.push(stringToPush: "/")
     }
     
-    
-    
-    
     @IBAction func equalsPressed(_ sender: UIButton) {
         typingNumber = false
         var sum = 0
@@ -116,14 +113,10 @@ class ViewController: UIViewController {
             
         default:
             Int(calculatorDisplay.text!)!
+            //calculatorDisplay.text = "0"
         }
-        
     }
-    
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
